@@ -1,0 +1,18 @@
+title: "Hub TheoTown Yakka"
+description: "Selamat datang di hub Theotown Yakka,disini anda dapat menemukan berbagai tutorial,tautan,dan tips mengenai berbagai hal Theotown. "
+baseurl: ""  # Leave empty for GitHub Pages
+url: "https://yakkastds.github.io/ttp/"  # Replace with your GitHub Pages URL
+markdown: kramdown  # Default Markdown parser
+
+# Exclude unnecessary files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _site
+
+# Plugins (optional)
+plugins:
+  - jekyll-seo-tag
