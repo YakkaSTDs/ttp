@@ -1,0 +1,169 @@
+/* Font-face declarations */
+@font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/Inter-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/Inter-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('assets/fonts/RobotoMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('assets/fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoEmoji';
+    src: url('assets/fonts/NotoEmoji-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Root variables */
+:root {
+    --YKCL-TXTP: #e0e0e0;
+    --YKCL-TXTS: #b0b0b0;
+    --YKCL-BGP: #121212;
+    --YKCL-BGS: #1e1e1e;
+    --YKCL-CLAP: #4d8b31;
+    --YKCL-CLAS: #ff8427;
+}
+
+/* Base styling */
+body {
+    font-family: 'Inter', 'NotoEmoji', Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0.25em 0.5em;
+    color: var(--YKCL-TXTS);
+    background-color: var(--YKCL-BGP);
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.25em 0.1em;
+    color: var(--YKCL-TXTP);
+    font-family: 'Montserrat', Display, sans-serif;
+}
+h1, h2 {
+    border-bottom: 1px solid var(--YKCL-TXTS);
+}
+p {
+    margin: 0.5em 0;
+}
+mark {
+    background: var(--YKCL-CLAP);
+    color: var(--YKCL-BGS);
+}
+
+/* Link styling */
+a {
+    color: var(--YKCL-CLAP);
+}
+a:visited {
+    color: var(--YKCL-CLAS);
+}
+a:hover, a:active {
+    color: var(--YKCL-CLAS);
+}
+a:disabled {
+    color: var(--YKCL-CLAS);
+    text-decoration: none;
+}
+
+/* Blockquote styling */
+blockquote {
+    margin: 0.25em 0.5em;
+    padding: 0.25em 0.5em;
+    border-left: 5px solid var(--YKCL-CLAP);
+    background-color: var(--YKCL-BGS);
+}
+
+/* List styling */
+ul, ol {
+    margin: 0.25em 0.5em;
+    padding: 0.25em 0.5em;
+}
+
+/* Inline code styling */
+code {
+    font-family: 'RobotoMono', monospace;
+    background: var(--YKCL-BGS);
+    padding: 0.1em 0.25em;
+    font-size: 0.8em;
+    word-break: break-word;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/* Preformatted block styling */
+pre {
+    background: var(--YKCL-BGS);
+    padding: 0.5em;
+    overflow-x: auto;
+}
+
+/* Horizontal rule */
+hr {
+    border: 0;
+    border-top: 1px solid var(--YKCL-TXTP);
+    margin: 1em 0;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    margin: 0.25em 0;
+    width: 100%;
+}
+table th, table td {
+    border: 1px solid var(--YKCL-TXTP);
+    padding: 0.25em;
+    text-align: left;
+}
+th {
+    color: var(--YKCL-TXTP);
+    background-color: var(--YKCL-BGS);
+}
+
+/* Image responsiveness */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+    body {
+        max-width: 90vw;
+        padding: 0 10vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        max-width: 85vw;
+        padding: 0 15vw;
+    }
+  }
