@@ -1,5 +1,5 @@
 ---
-layout: home  # This uses the Minima theme's default home layout
+layout: default  # This uses the Minima theme's default home layout
 title: "Home"
 ---
 
