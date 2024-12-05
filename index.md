@@ -31,9 +31,9 @@ Tutorial berikut menggunakan aplikasi [Marc Files](https://play.google.com/store
 
 ## Permasalahan Memasang Plugin 
 Terkadang jika anda memasang plugin,anda mengalami galat (error),berikut adalah solusi permasalahan umumnya.
-- [Berkas Manifest Plugin Tidak Ditemukan](Error/Manifest.md)
-- [Tidak Muncul Di Kategori Plugin](Error/Kategori.md)
-- [Kebijakan Skrip Plugin](Error/Skrip.md)
+- [Berkas Manifest Plugin Tidak Ditemukan](ErrorP/Manifest.md)
+- [Tidak Muncul Di Kategori Plugin](ErroPr/Kategori.md)
+- [Kebijakan Skrip Plugin](ErrorP/Skrip.md)
 
 ## Tips dan tutorial umum game
 Berikut tutorial dan tips perihal hal-hal umum di game.
